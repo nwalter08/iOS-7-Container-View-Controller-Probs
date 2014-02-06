@@ -19,6 +19,10 @@
 		01DFF55518A4301500EADD7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DFF53D18A4301500EADD7A /* UIKit.framework */; };
 		01DFF55D18A4301500EADD7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01DFF55B18A4301500EADD7A /* InfoPlist.strings */; };
 		01DFF55F18A4301500EADD7A /* TabBarContainerNavProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF55E18A4301500EADD7A /* TabBarContainerNavProblemTests.m */; };
+		01DFF56A18A4303900EADD7A /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF56918A4303900EADD7A /* MyTabBarViewController.m */; };
+		01DFF57918A434E200EADD7A /* RedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF57818A434E200EADD7A /* RedContainerViewController.m */; };
+		01DFF57C18A4355900EADD7A /* YellowNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF57B18A4355900EADD7A /* YellowNavigationViewController.m */; };
+		01DFF57F18A435C700EADD7A /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DFF57E18A435C700EADD7A /* BlueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		01DFF55A18A4301500EADD7A /* TabBarContainerNavProblemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabBarContainerNavProblemTests-Info.plist"; sourceTree = "<group>"; };
 		01DFF55C18A4301500EADD7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01DFF55E18A4301500EADD7A /* TabBarContainerNavProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarContainerNavProblemTests.m; sourceTree = "<group>"; };
+		01DFF56818A4303900EADD7A /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		01DFF56918A4303900EADD7A /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		01DFF57718A434E200EADD7A /* RedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedContainerViewController.h; sourceTree = "<group>"; };
+		01DFF57818A434E200EADD7A /* RedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedContainerViewController.m; sourceTree = "<group>"; };
+		01DFF57A18A4355900EADD7A /* YellowNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowNavigationViewController.h; sourceTree = "<group>"; };
+		01DFF57B18A4355900EADD7A /* YellowNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowNavigationViewController.m; sourceTree = "<group>"; };
+		01DFF57D18A435C700EADD7A /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		01DFF57E18A435C700EADD7A /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,14 @@
 			children = (
 				01DFF54818A4301500EADD7A /* AppDelegate.h */,
 				01DFF54918A4301500EADD7A /* AppDelegate.m */,
+				01DFF56818A4303900EADD7A /* MyTabBarViewController.h */,
+				01DFF56918A4303900EADD7A /* MyTabBarViewController.m */,
+				01DFF57718A434E200EADD7A /* RedContainerViewController.h */,
+				01DFF57818A434E200EADD7A /* RedContainerViewController.m */,
+				01DFF57A18A4355900EADD7A /* YellowNavigationViewController.h */,
+				01DFF57B18A4355900EADD7A /* YellowNavigationViewController.m */,
+				01DFF57D18A435C700EADD7A /* BlueViewController.h */,
+				01DFF57E18A435C700EADD7A /* BlueViewController.m */,
 				01DFF54B18A4301500EADD7A /* Images.xcassets */,
 				01DFF54018A4301500EADD7A /* Supporting Files */,
 			);
@@ -239,7 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DFF57C18A4355900EADD7A /* YellowNavigationViewController.m in Sources */,
 				01DFF54A18A4301500EADD7A /* AppDelegate.m in Sources */,
+				01DFF57918A434E200EADD7A /* RedContainerViewController.m in Sources */,
+				01DFF56A18A4303900EADD7A /* MyTabBarViewController.m in Sources */,
+				01DFF57F18A435C700EADD7A /* BlueViewController.m in Sources */,
 				01DFF54618A4301500EADD7A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabBarContainerNavProblem/TabBarContainerNavProblem-Prefix.pch";
 				INFOPLIST_FILE = "TabBarContainerNavProblem/TabBarContainerNavProblem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabBarContainerNavProblem/TabBarContainerNavProblem-Prefix.pch";
 				INFOPLIST_FILE = "TabBarContainerNavProblem/TabBarContainerNavProblem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
