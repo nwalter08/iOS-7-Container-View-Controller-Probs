@@ -18,7 +18,7 @@
     
     self = [super init];
     
-    if(self){
+    if (self) {
         _detailViewController = viewController;
         self.view.backgroundColor = [UIColor redColor];
     }
@@ -26,18 +26,14 @@
     return self;
 }
 
-- (void)loadView {
-    UIView *contentView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    [self addChildViewController:_detailViewController];
-    [contentView addSubview:_detailViewController.view];
-    [_detailViewController didMoveToParentViewController:self];
-    self.view = contentView;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    _detailViewController.view.frame = self.view.bounds;
+    [self addChildViewController:_detailViewController];
+    [self.view addSubview:_detailViewController.view];
+    [_detailViewController didMoveToParentViewController:self];
 }
 
 @end
