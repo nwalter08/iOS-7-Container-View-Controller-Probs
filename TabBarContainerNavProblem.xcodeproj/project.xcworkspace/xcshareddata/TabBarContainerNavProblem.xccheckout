@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86C896B3-4DD7-4B1F-98D2-863D274976D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TabBarContainerNavProblem</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3FAEAB96-43A7-4ED8-9094-B92308688C54</key>
+		<string>https://github.com/nwalter08/iOS-7-Container-View-Controller-Probs.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TabBarContainerNavProblem.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3FAEAB96-43A7-4ED8-9094-B92308688C54</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nwalter08/iOS-7-Container-View-Controller-Probs.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3FAEAB96-43A7-4ED8-9094-B92308688C54</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FAEAB96-43A7-4ED8-9094-B92308688C54</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TabBarContainerNavProblem</string>
+		</dict>
+	</array>
+</dict>
+</plist>
